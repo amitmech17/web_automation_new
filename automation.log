@@ -1,0 +1,157 @@
+06/21/2022 02:50:03 PM - LoginTests - INFO: test_t1validLogin started
+06/21/2022 02:50:08 PM - LoginTests - INFO: test_t1validLogin started
+06/21/2022 02:50:08 PM - Util - INFO: Actual Text From Application Web UI --> :: Current Temperature
+06/21/2022 02:50:08 PM - Util - INFO: Expected Text From Application Web UI --> :: Login Page
+06/21/2022 02:50:08 PM - Util - INFO: ### VERIFICATION DOES NOT CONTAINS !!!
+06/21/2022 02:50:08 PM - Status - ERROR: ### VERIFICATION FAILED :: Login Page Verification
+06/21/2022 02:50:08 PM - Status - INFO: Screenshot save to directory: C:\Users\amitm\OneDrive\Desktop\New folder (5)\jukinmedia_pytest-master\web_automation\base\../screenshots/Login Page Verification.1655803208359.png
+06/21/2022 02:50:11 PM - LoginPage - INFO: Element not found with locator: #username and  locatorType: css
+06/21/2022 02:50:11 PM - LoginPage - INFO: Cannot send data on the element with locator: #username locatorType: css
+06/21/2022 02:50:14 PM - LoginPage - INFO: Element not found with locator: //input[@id='creds.password'] and  locatorType: xpath
+06/21/2022 02:50:14 PM - LoginPage - INFO: Cannot send data on the element with locator: //input[@id='creds.password'] locatorType: xpath
+06/21/2022 02:50:17 PM - LoginPage - INFO: Element not found with locator: //input[@id='loginButton'] and  locatorType: xpath
+06/21/2022 02:50:17 PM - LoginPage - INFO: Cannot click on the element with locator: //input[@id='loginButton'] locatorType: xpath
+06/21/2022 02:50:17 PM - Util - INFO: Actual Text From Application Web UI --> :: Current Temperature
+06/21/2022 02:50:17 PM - Util - INFO: Expected Text From Application Web UI --> :: Login Success
+06/21/2022 02:50:17 PM - Util - INFO: ### VERIFICATION DOES NOT CONTAINS !!!
+06/21/2022 02:50:17 PM - Status - ERROR: ### VERIFICATION FAILED :: Login success verification
+06/21/2022 02:50:17 PM - Status - INFO: Screenshot save to directory: C:\Users\amitm\OneDrive\Desktop\New folder (5)\jukinmedia_pytest-master\web_automation\base\../screenshots/Login success verification.1655803217630.png
+06/21/2022 02:50:17 PM - Status - ERROR: test_t1validLogin ### TEST FAILED
+06/21/2022 02:50:24 PM - RegisterTests - INFO: test_t3validRegistration started
+06/21/2022 02:50:27 PM - RegisterPage - INFO: Element not found with locator: //a[contains(text(),'Register')] and  locatorType: xpath
+06/21/2022 02:50:27 PM - RegisterPage - INFO: Cannot click on the element with locator: //a[contains(text(),'Register')] locatorType: xpath
+06/21/2022 02:50:27 PM - Util - INFO: Actual Text From Application Web UI --> :: Current Temperature
+06/21/2022 02:50:27 PM - Util - INFO: Expected Text From Application Web UI --> :: Registration
+06/21/2022 02:50:27 PM - Util - INFO: ### VERIFICATION DOES NOT CONTAINS !!!
+06/21/2022 02:50:27 PM - Status - ERROR: ### VERIFICATION FAILED :: Registration Page Verification
+06/21/2022 02:50:27 PM - Status - INFO: Screenshot save to directory: C:\Users\amitm\OneDrive\Desktop\New folder (5)\jukinmedia_pytest-master\web_automation\base\../screenshots/Registration Page Verification.1655803227653.png
+06/21/2022 02:50:30 PM - RegisterPage - INFO: Element not found with locator: //input[@id='reg.email'] and  locatorType: xpath
+06/21/2022 02:50:30 PM - RegisterPage - INFO: Cannot send data on the element with locator: //input[@id='reg.email'] locatorType: xpath
+06/21/2022 02:50:33 PM - RegisterPage - INFO: Element not found with locator: //input[@id='reg.password'] and  locatorType: xpath
+06/21/2022 02:50:33 PM - RegisterPage - INFO: Cannot send data on the element with locator: //input[@id='reg.password'] locatorType: xpath
+06/21/2022 02:50:36 PM - RegisterPage - INFO: Element not found with locator: //input[@id='reg.confirmPassword'] and  locatorType: xpath
+06/21/2022 02:50:36 PM - RegisterPage - INFO: Cannot send data on the element with locator: //input[@id='reg.confirmPassword'] locatorType: xpath
+06/21/2022 02:50:39 PM - RegisterPage - INFO: Element not found with locator: //input[@name='_action_doRegister'] and  locatorType: xpath
+06/21/2022 02:50:39 PM - RegisterPage - INFO: Cannot click on the element with locator: //input[@name='_action_doRegister'] locatorType: xpath
+06/21/2022 02:50:40 PM - Util - INFO: Actual Text From Application Web UI --> :: Current Temperature
+06/21/2022 02:50:40 PM - Util - INFO: Expected Text From Application Web UI --> :: Registration Successful
+06/21/2022 02:50:40 PM - Util - INFO: ### VERIFICATION DOES NOT CONTAINS !!!
+06/21/2022 02:50:40 PM - Status - ERROR: ### VERIFICATION FAILED :: Registration success verification
+06/21/2022 02:50:41 PM - Status - INFO: Screenshot save to directory: C:\Users\amitm\OneDrive\Desktop\New folder (5)\jukinmedia_pytest-master\web_automation\base\../screenshots/Registration success verification.1655803240925.png
+06/21/2022 02:50:41 PM - Status - ERROR: test_t3validRegistration ### TEST FAILED
+06/21/2022 02:50:47 PM - RegisterTests - INFO: test_t4invalidRegistrationPasswordValidation started
+06/21/2022 02:50:50 PM - RegisterPage - INFO: Element not found with locator: //a[contains(text(),'Register')] and  locatorType: xpath
+06/21/2022 02:50:50 PM - RegisterPage - INFO: Cannot click on the element with locator: //a[contains(text(),'Register')] locatorType: xpath
+06/21/2022 02:50:53 PM - RegisterPage - INFO: Element not found with locator: //input[@id='reg.email'] and  locatorType: xpath
+06/21/2022 02:50:53 PM - RegisterPage - INFO: Cannot send data on the element with locator: //input[@id='reg.email'] locatorType: xpath
+06/21/2022 02:50:56 PM - RegisterPage - INFO: Element not found with locator: //input[@id='reg.password'] and  locatorType: xpath
+06/21/2022 02:50:56 PM - RegisterPage - INFO: Cannot send data on the element with locator: //input[@id='reg.password'] locatorType: xpath
+06/21/2022 02:50:59 PM - RegisterPage - INFO: Element not found with locator: //input[@id='reg.confirmPassword'] and  locatorType: xpath
+06/21/2022 02:50:59 PM - RegisterPage - INFO: Cannot send data on the element with locator: //input[@id='reg.confirmPassword'] locatorType: xpath
+06/21/2022 02:51:02 PM - RegisterPage - INFO: Element not found with locator: //input[@name='_action_doRegister'] and  locatorType: xpath
+06/21/2022 02:51:02 PM - RegisterPage - INFO: Cannot click on the element with locator: //input[@name='_action_doRegister'] locatorType: xpath
+06/21/2022 02:51:03 PM - Util - INFO: Actual Text From Application Web UI --> :: Current Temperature
+06/21/2022 02:51:03 PM - Util - INFO: Expected Text From Application Web UI --> :: Registration Successful
+06/21/2022 02:51:03 PM - Util - INFO: ### VERIFICATION DOES NOT CONTAINS !!!
+06/21/2022 02:51:10 PM - RegisterTests - INFO: test_t5_1_password_hint_meesage started
+06/21/2022 02:51:13 PM - RegisterPage - INFO: Element not found with locator: //a[contains(text(),'Register')] and  locatorType: xpath
+06/21/2022 02:51:13 PM - RegisterPage - INFO: Cannot click on the element with locator: //a[contains(text(),'Register')] locatorType: xpath
+06/21/2022 02:51:13 PM - Util - INFO: Actual Text From Application Web UI --> :: Current Temperature
+06/21/2022 02:51:13 PM - Util - INFO: Expected Text From Application Web UI --> :: Registration
+06/21/2022 02:51:13 PM - Util - INFO: ### VERIFICATION DOES NOT CONTAINS !!!
+06/21/2022 02:51:13 PM - Status - ERROR: ### VERIFICATION FAILED :: Registration Page Verification
+06/21/2022 02:51:13 PM - Status - INFO: Screenshot save to directory: C:\Users\amitm\OneDrive\Desktop\New folder (5)\jukinmedia_pytest-master\web_automation\base\../screenshots/Registration Page Verification.1655803273225.png
+06/21/2022 02:51:16 PM - RegisterPage - INFO: Element not found with locator: //img[@id='tooltipImg'] and  locatorType: xpath
+06/21/2022 02:51:16 PM - RegisterPage - INFO: Cannot click on the element with locator: //img[@id='tooltipImg'] locatorType: xpath
+06/21/2022 02:51:20 PM - RegisterPage - INFO: Element not found with locator: //img[@id='tooltipImg'] and  locatorType: xpath
+06/21/2022 02:51:20 PM - RegisterPage - INFO: Cannot click on the element with locator: //img[@id='tooltipImg'] locatorType: xpath
+06/21/2022 02:51:23 PM - RegisterPage - INFO: Element not found with locator: //div[@class='ui-tooltip-content'] and  locatorType: xpath
+06/21/2022 02:51:23 PM - RegisterPage - ERROR: Failed to get text on element 
+06/21/2022 02:51:30 PM - RegisterTests - INFO: test_t5invalidRegistrationEmailValidation started
+06/21/2022 02:51:33 PM - RegisterPage - INFO: Element not found with locator: //a[contains(text(),'Register')] and  locatorType: xpath
+06/21/2022 02:51:33 PM - RegisterPage - INFO: Cannot click on the element with locator: //a[contains(text(),'Register')] locatorType: xpath
+06/21/2022 02:51:33 PM - Util - INFO: Actual Text From Application Web UI --> :: Current Temperature
+06/21/2022 02:51:33 PM - Util - INFO: Expected Text From Application Web UI --> :: Registration
+06/21/2022 02:51:33 PM - Util - INFO: ### VERIFICATION DOES NOT CONTAINS !!!
+06/21/2022 02:51:33 PM - Status - ERROR: ### VERIFICATION FAILED :: Registration Page Verification
+06/21/2022 02:51:33 PM - Status - INFO: Screenshot save to directory: C:\Users\amitm\OneDrive\Desktop\New folder (5)\jukinmedia_pytest-master\web_automation\base\../screenshots/Registration Page Verification.1655803293105.png
+06/21/2022 02:51:36 PM - RegisterPage - INFO: Element not found with locator: //input[@name='_action_doRegister'] and  locatorType: xpath
+06/21/2022 02:51:36 PM - RegisterPage - INFO: Cannot click on the element with locator: //input[@name='_action_doRegister'] locatorType: xpath
+06/21/2022 02:51:37 PM - Util - INFO: Actual Text From Application Web UI --> :: Current Temperature
+06/21/2022 02:51:37 PM - Util - INFO: Expected Text From Application Web UI --> :: Registration Successful
+06/21/2022 02:51:37 PM - Util - INFO: ### VERIFICATION DOES NOT CONTAINS !!!
+06/21/2022 02:51:37 PM - Status - ERROR: ### VERIFICATION FAILED :: blank values Error message verification
+06/21/2022 02:51:37 PM - Status - INFO: Screenshot save to directory: C:\Users\amitm\OneDrive\Desktop\New folder (5)\jukinmedia_pytest-master\web_automation\base\../screenshots/blank values Error message verification.1655803297300.png
+06/21/2022 02:51:37 PM - Status - ERROR: test_t5_invalid_Registration_blank_values ### TEST FAILED
+06/21/2022 02:51:44 PM - RegisterTests - INFO: test_t5invalidRegistrationEmailValidation started
+06/21/2022 02:51:47 PM - RegisterPage - INFO: Element not found with locator: //a[contains(text(),'Register')] and  locatorType: xpath
+06/21/2022 02:51:47 PM - RegisterPage - INFO: Cannot click on the element with locator: //a[contains(text(),'Register')] locatorType: xpath
+06/21/2022 02:51:47 PM - Util - INFO: Actual Text From Application Web UI --> :: Current Temperature
+06/21/2022 02:51:47 PM - Util - INFO: Expected Text From Application Web UI --> :: Registration
+06/21/2022 02:51:47 PM - Util - INFO: ### VERIFICATION DOES NOT CONTAINS !!!
+06/21/2022 02:51:47 PM - Status - ERROR: ### VERIFICATION FAILED :: Registration Page Verification
+06/21/2022 02:51:47 PM - Status - INFO: Screenshot save to directory: C:\Users\amitm\OneDrive\Desktop\New folder (5)\jukinmedia_pytest-master\web_automation\base\../screenshots/Registration Page Verification.1655803307155.png
+06/21/2022 02:51:50 PM - RegisterPage - INFO: Element not found with locator: //input[@id='reg.email'] and  locatorType: xpath
+06/21/2022 02:51:50 PM - RegisterPage - INFO: Cannot send data on the element with locator: //input[@id='reg.email'] locatorType: xpath
+06/21/2022 02:51:53 PM - RegisterPage - INFO: Element not found with locator: //input[@id='reg.password'] and  locatorType: xpath
+06/21/2022 02:51:53 PM - RegisterPage - INFO: Cannot send data on the element with locator: //input[@id='reg.password'] locatorType: xpath
+06/21/2022 02:51:56 PM - RegisterPage - INFO: Element not found with locator: //input[@id='reg.confirmPassword'] and  locatorType: xpath
+06/21/2022 02:51:56 PM - RegisterPage - INFO: Cannot send data on the element with locator: //input[@id='reg.confirmPassword'] locatorType: xpath
+06/21/2022 02:51:59 PM - RegisterPage - INFO: Element not found with locator: //input[@name='_action_doRegister'] and  locatorType: xpath
+06/21/2022 02:51:59 PM - RegisterPage - INFO: Cannot click on the element with locator: //input[@name='_action_doRegister'] locatorType: xpath
+06/21/2022 02:52:03 PM - RegisterPage - INFO: Element not found with locator: //div[@id='failedMessage'] and  locatorType: xpath
+06/21/2022 02:52:03 PM - RegisterPage - ERROR: Failed to get text on element 
+06/21/2022 02:52:10 PM - RegisterTests - INFO: test_t5invalidRegistrationEmailValidation started
+06/21/2022 02:52:13 PM - RegisterPage - INFO: Element not found with locator: //a[contains(text(),'Register')] and  locatorType: xpath
+06/21/2022 02:52:13 PM - RegisterPage - INFO: Cannot click on the element with locator: //a[contains(text(),'Register')] locatorType: xpath
+06/21/2022 02:52:13 PM - Util - INFO: Actual Text From Application Web UI --> :: Current Temperature
+06/21/2022 02:52:13 PM - Util - INFO: Expected Text From Application Web UI --> :: Registration
+06/21/2022 02:52:13 PM - Util - INFO: ### VERIFICATION DOES NOT CONTAINS !!!
+06/21/2022 02:52:13 PM - Status - ERROR: ### VERIFICATION FAILED :: Registration Page Verification
+06/21/2022 02:52:13 PM - Status - INFO: Screenshot save to directory: C:\Users\amitm\OneDrive\Desktop\New folder (5)\jukinmedia_pytest-master\web_automation\base\../screenshots/Registration Page Verification.1655803333111.png
+06/21/2022 02:52:16 PM - RegisterPage - INFO: Element not found with locator: //input[@id='reg.email'] and  locatorType: xpath
+06/21/2022 02:52:16 PM - RegisterPage - INFO: Cannot send data on the element with locator: //input[@id='reg.email'] locatorType: xpath
+06/21/2022 02:52:19 PM - RegisterPage - INFO: Element not found with locator: //input[@id='reg.password'] and  locatorType: xpath
+06/21/2022 02:52:19 PM - RegisterPage - INFO: Cannot send data on the element with locator: //input[@id='reg.password'] locatorType: xpath
+06/21/2022 02:52:22 PM - RegisterPage - INFO: Element not found with locator: //input[@id='reg.confirmPassword'] and  locatorType: xpath
+06/21/2022 02:52:22 PM - RegisterPage - INFO: Cannot send data on the element with locator: //input[@id='reg.confirmPassword'] locatorType: xpath
+06/21/2022 02:52:25 PM - RegisterPage - INFO: Element not found with locator: //input[@name='_action_doRegister'] and  locatorType: xpath
+06/21/2022 02:52:25 PM - RegisterPage - INFO: Cannot click on the element with locator: //input[@name='_action_doRegister'] locatorType: xpath
+06/21/2022 02:52:29 PM - RegisterPage - INFO: Element not found with locator: //div[@id='failedMessage'] and  locatorType: xpath
+06/21/2022 02:52:29 PM - RegisterPage - ERROR: Failed to get text on element 
+06/21/2022 02:56:30 PM - LoginTests - INFO: test_t1validLogin started
+06/21/2022 02:56:30 PM - Util - INFO: Actual Text From Application Web UI --> :: Current Temperature
+06/21/2022 02:56:30 PM - Util - INFO: Expected Text From Application Web UI --> :: Login Page
+06/21/2022 02:56:30 PM - Util - INFO: ### VERIFICATION DOES NOT CONTAINS !!!
+06/21/2022 02:56:30 PM - Status - ERROR: ### VERIFICATION FAILED :: Login Page Verification
+06/21/2022 02:56:30 PM - Status - INFO: Screenshot save to directory: C:\Users\amitm\OneDrive\Desktop\New folder (5)\jukinmedia_pytest-master\web_automation\base\../screenshots/Login Page Verification.1655803590188.png
+06/21/2022 02:56:33 PM - LoginPage - INFO: Element not found with locator: #username and  locatorType: css
+06/21/2022 02:56:33 PM - LoginPage - INFO: Cannot send data on the element with locator: #username locatorType: css
+06/21/2022 02:56:36 PM - LoginPage - INFO: Element not found with locator: //input[@id='creds.password'] and  locatorType: xpath
+06/21/2022 02:56:36 PM - LoginPage - INFO: Cannot send data on the element with locator: //input[@id='creds.password'] locatorType: xpath
+06/21/2022 02:56:39 PM - LoginPage - INFO: Element not found with locator: //input[@id='loginButton'] and  locatorType: xpath
+06/21/2022 02:56:39 PM - LoginPage - INFO: Cannot click on the element with locator: //input[@id='loginButton'] locatorType: xpath
+06/21/2022 02:56:39 PM - Util - INFO: Actual Text From Application Web UI --> :: Current Temperature
+06/21/2022 02:56:39 PM - Util - INFO: Expected Text From Application Web UI --> :: Login Success
+06/21/2022 02:56:39 PM - Util - INFO: ### VERIFICATION DOES NOT CONTAINS !!!
+06/21/2022 02:56:39 PM - Status - ERROR: ### VERIFICATION FAILED :: Login success verification
+06/21/2022 02:56:39 PM - Status - INFO: Screenshot save to directory: C:\Users\amitm\OneDrive\Desktop\New folder (5)\jukinmedia_pytest-master\web_automation\base\../screenshots/Login success verification.1655803599428.png
+06/21/2022 02:56:39 PM - Status - ERROR: test_t1validLogin ### TEST FAILED
+06/21/2022 03:14:35 PM - LoginTests - INFO: test_t1validLogin started
+06/21/2022 03:14:35 PM - Util - INFO: Actual Text From Application Web UI --> :: Current Temperature
+06/21/2022 03:14:35 PM - Util - INFO: Expected Text From Application Web UI --> :: Login Page
+06/21/2022 03:14:35 PM - Util - INFO: ### VERIFICATION DOES NOT CONTAINS !!!
+06/21/2022 03:14:35 PM - Status - ERROR: ### VERIFICATION FAILED :: Login Page Verification
+06/21/2022 03:14:35 PM - Status - INFO: Screenshot save to directory: C:\Users\amitm\OneDrive\Desktop\New folder (5)\jukinmedia_pytest-master\web_automation\base\../screenshots/Login Page Verification.1655804675837.png
+06/21/2022 03:14:38 PM - LoginPage - INFO: Element not found with locator: #username and  locatorType: css
+06/21/2022 03:14:38 PM - LoginPage - INFO: Cannot send data on the element with locator: #username locatorType: css
+06/21/2022 03:14:42 PM - LoginPage - INFO: Element not found with locator: //input[@id='creds.password'] and  locatorType: xpath
+06/21/2022 03:14:42 PM - LoginPage - INFO: Cannot send data on the element with locator: //input[@id='creds.password'] locatorType: xpath
+06/21/2022 03:14:45 PM - LoginPage - INFO: Element not found with locator: //input[@id='loginButton'] and  locatorType: xpath
+06/21/2022 03:14:45 PM - LoginPage - INFO: Cannot click on the element with locator: //input[@id='loginButton'] locatorType: xpath
+06/21/2022 03:14:45 PM - Util - INFO: Actual Text From Application Web UI --> :: Current Temperature
+06/21/2022 03:14:45 PM - Util - INFO: Expected Text From Application Web UI --> :: Login Success
+06/21/2022 03:14:45 PM - Util - INFO: ### VERIFICATION DOES NOT CONTAINS !!!
+06/21/2022 03:14:45 PM - Status - ERROR: ### VERIFICATION FAILED :: Login success verification
+06/21/2022 03:14:45 PM - Status - INFO: Screenshot save to directory: C:\Users\amitm\OneDrive\Desktop\New folder (5)\jukinmedia_pytest-master\web_automation\base\../screenshots/Login success verification.1655804685090.png
+06/21/2022 03:14:45 PM - Status - ERROR: test_t1validLogin ### TEST FAILED

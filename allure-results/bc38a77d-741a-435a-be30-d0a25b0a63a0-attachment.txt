@@ -1,0 +1,22 @@
+[32mINFO    [0m WDM:logger.py:16 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:16 Current google-chrome version is 102.0.5005
+[32mINFO    [0m WDM:logger.py:16 Get LATEST chromedriver version for 102.0.5005 google-chrome
+[32mINFO    [0m WDM:logger.py:16 Driver [C:\Users\amitm\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+[32mINFO    [0m LoginTests:Test_login_tests.py:23 test_t1validLogin started
+[32mINFO    [0m Util:util.py:82 Actual Text From Application Web UI --> :: Current Temperature
+[32mINFO    [0m Util:util.py:83 Expected Text From Application Web UI --> :: Login Page
+[32mINFO    [0m Util:util.py:88 ### VERIFICATION DOES NOT CONTAINS !!!
+[1m[31mERROR   [0m Status:test_status.py:35 ### VERIFICATION FAILED :: Login Page Verification
+[32mINFO    [0m Status:selenium_driver.py:34 Screenshot save to directory: C:\Users\amitm\OneDrive\Desktop\New folder (5)\jukinmedia_pytest-master\web_automation\base\../screenshots/Login Page Verification.1655803590188.png
+[32mINFO    [0m LoginPage:selenium_driver.py:70 Element not found with locator: #username and  locatorType: css
+[32mINFO    [0m LoginPage:selenium_driver.py:119 Cannot send data on the element with locator: #username locatorType: css
+[32mINFO    [0m LoginPage:selenium_driver.py:70 Element not found with locator: //input[@id='creds.password'] and  locatorType: xpath
+[32mINFO    [0m LoginPage:selenium_driver.py:119 Cannot send data on the element with locator: //input[@id='creds.password'] locatorType: xpath
+[32mINFO    [0m LoginPage:selenium_driver.py:70 Element not found with locator: //input[@id='loginButton'] and  locatorType: xpath
+[32mINFO    [0m LoginPage:selenium_driver.py:103 Cannot click on the element with locator: //input[@id='loginButton'] locatorType: xpath
+[32mINFO    [0m Util:util.py:82 Actual Text From Application Web UI --> :: Current Temperature
+[32mINFO    [0m Util:util.py:83 Expected Text From Application Web UI --> :: Login Success
+[32mINFO    [0m Util:util.py:88 ### VERIFICATION DOES NOT CONTAINS !!!
+[1m[31mERROR   [0m Status:test_status.py:35 ### VERIFICATION FAILED :: Login success verification
+[32mINFO    [0m Status:selenium_driver.py:34 Screenshot save to directory: C:\Users\amitm\OneDrive\Desktop\New folder (5)\jukinmedia_pytest-master\web_automation\base\../screenshots/Login success verification.1655803599428.png
+[1m[31mERROR   [0m Status:test_status.py:62 test_t1validLogin ### TEST FAILED
